@@ -1,5 +1,6 @@
 import 'package:api_get/controllers/productcontrollers.dart';
 import 'package:api_get/views/screens/first_page.dart';
+import 'package:api_get/views/screens/second_page.dart';
 import 'package:flutter/material.dart';
 
 void main(List<String> args) {
@@ -13,10 +14,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: FirstPage(
-        productControllers: productControllers,
-      ),
-    );
+    return MaterialApp(home: SecondPage());
   }
 }
